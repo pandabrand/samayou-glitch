@@ -1,0 +1,24 @@
+{
+  "name": "link-tree-11ty",
+  "description": "A link tree project using eleventy",
+  "engines": {
+    "node": "16.x"
+  },
+  "tags": [
+    "eleventy",
+    "11ty",
+    "ssr",
+    "static",
+    "glitch",
+    "template"
+  ],
+  "version": "1.0.0",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,25 @@
+---
+layout: layouts/default.njk
+---
+
+<p>
+  <img width="480" height="480" src="https://cdn.glitch.global/8c6fd7d3-a87a-4e19-a798-acabf8f4f016/samayou-480.png?v=1680835964548"  />
+</p>
+
+<p>
+  <img width="256" height="256" src="https://cdn.glitch.global/8c6fd7d3-a87a-4e19-a798-acabf8f4f016/Winter-One-Cover.png?v=1680836769674" />
+</p>
+<h3>
+  Winter One EP
+</h3>
+<ul class="linktree">
+  {% for item in links %}
+    <li><a href="{{item.url}}">{{item.name}}</a>
+      {% if item.description %}
+      <p>
+        {{item.description}}
+      </p>
+      {% endif %}
+  </li>
+  {% endfor %}
+</ul>

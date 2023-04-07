@@ -1,0 +1,13 @@
+{
+  "name": "Samayou",
+  "description": "Winter One EP out now",
+  "createdBy": {
+    "name": "Pandabrand",
+    "twitter": ""
+  },
+  "siteImages": {
+    "icon16": "https://cdn.glitch.global/8c6fd7d3-a87a-4e19-a798-acabf8f4f016/samayou-16.png?v=1680835116348",
+    "icon128": "https://cdn.glitch.global/8c6fd7d3-a87a-4e19-a798-acabf8f4f016/samayou-126.png?v=1680835116557",
+    "icon256": "https://cdn.glitch.global/8c6fd7d3-a87a-4e19-a798-acabf8f4f016/samayou-256.png?v=1680835116758"
+  }
+}
